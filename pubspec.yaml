@@ -1,0 +1,666 @@
+name: myapp
+description: A exported flutter project from FUNCTION12
+
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.2 <3.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  google_fonts: ^3.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^2.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  # assets:
+  #   - images/a_dot_burr.jpeg
+  #   - images/a_dot_ham.jpeg
+  assets:
+    - assets/page-1/images/mask-group.png
+    - assets/page-1/images/ellipse-12.png
+    - assets/page-1/images/icon-star-circle-fill.png
+    - assets/page-1/images/profile.png
+    - assets/page-1/images/icon-microphone.png
+    - assets/page-1/images/icon-dineout.png
+    - assets/page-1/images/group-18285.png
+    - assets/page-1/images/icon-chevron-right-arrow.png
+    - assets/page-1/images/group-18286.png
+    - assets/page-1/images/icon-star-circle-fill-kZo.png
+    - assets/page-1/images/dominos-pizza-logo.png
+    - assets/page-1/images/icon-chevron-right-arrow-bLd.png
+    - assets/page-1/images/group-18287.png
+    - assets/page-1/images/mask-group-tXs.png
+    - assets/page-1/images/profile-rbj.png
+    - assets/page-1/images/icon-star-circle-fill-Xrq.png
+    - assets/page-1/images/filter.png
+    - assets/page-1/images/icon-star-circle-fill-gem.png
+    - assets/page-1/images/icon-chevron-right-arrow-Fpu.png
+    - assets/page-1/images/search-icon.png
+    - assets/page-1/images/icon-microphone-vZw.png
+    - assets/page-1/images/rb2-2.png
+    - assets/page-1/images/icon-food.png
+    - assets/page-1/images/icon-printer.png
+    - assets/page-1/images/icon-keyboard-arrow-down-vmP.png
+    - assets/page-1/images/icon-chevron-right-arrow-YhX.png
+    - assets/page-1/images/icon-printer-eYq.png
+    - assets/page-1/images/icon-shopping-bag-1Bf.png
+    - assets/page-1/images/icon-star-circle-fill-Eyf.png
+    - assets/page-1/images/icon-star-circle-fill-gWd.png
+    - assets/page-1/images/icon-star-circle-fill-kxy.png
+    - assets/page-1/images/profile-xyo.png
+    - assets/page-1/images/group-18288.png
+    - assets/page-1/images/icon-star-circle-fill-fey.png
+    - assets/page-1/images/container.png
+    - assets/page-1/images/dominos-5AZ.png
+    - assets/page-1/images/mega-bites-1.png
+    - assets/page-1/images/dominos.png
+    - assets/page-1/images/rb2-2-w21.png
+    - assets/page-1/images/r-1.png
+    - assets/page-1/images/profile-jhK.png
+    - assets/page-1/images/ellipse-10.png
+    - assets/page-1/images/vector.png
+    - assets/page-1/images/icon-star-circle-fill-DsP.png
+    - assets/page-1/images/icon-star-circle-fill-bDj.png
+    - assets/page-1/images/group-18286-AXj.png
+    - assets/page-1/images/icon-graduation-cap.png
+    - assets/page-1/images/icon-star-circle-fill-K9j.png
+    - assets/page-1/images/mask-group-tTj.png
+    - assets/page-1/images/icon-chevron-right-arrow-TWq.png
+    - assets/page-1/images/search-icon-2Zw.png
+    - assets/page-1/images/ellipse-11.png
+    - assets/page-1/images/mask-group-MWy.png
+    - assets/page-1/images/icon-star-circle-fill-rCq.png
+    - assets/page-1/images/icon-star-circle-fill-zZw.png
+    - assets/page-1/images/rectangle-4.png
+    - assets/page-1/images/icon-keyboard-arrow-down.png
+    - assets/page-1/images/icon-star-circle-fill-VFo.png
+    - assets/page-1/images/ellipse-9.png
+    - assets/page-1/images/group-18286-1ms.png
+    - assets/page-1/images/icon-shopping-bag.png
+    - assets/page-1/images/mask-group-Aem.png
+    - assets/page-1/images/remotebites-1.png
+    - assets/page-1/images/mask-group-oVK.png
+    - assets/page-1/images/clip-path-group.png
+    - assets/page-1/images/icon-star-circle-fill-ECh.png
+    - assets/page-1/images/clip-path-group-qwX.png
+    - assets/page-1/images/group.png
+    - assets/page-1/images/icon-dineout-8dw.png
+    - assets/page-1/images/icon-food-gc9.png
+    - assets/page-1/images/icon-chevron-right-arrow-qms.png
+    - assets/page-1/images/dominos-jKw.png
+    - assets/page-1/images/dominos-YkZ.png
+    - assets/page-1/images/dominos-5Db.png
+    - assets/page-1/images/dominos-ovH.png
+    - assets/page-1/images/mega-bites-1-pwB.png
+    - assets/page-1/images/dominos-PTP.png
+    - assets/page-1/images/mega-bites-1-PXP.png
+    - assets/page-1/images/print-1.png
+    - assets/page-1/images/mega-bites-1-MEy.png
+    - assets/page-1/images/mega-bites-1-oJy.png
+    - assets/page-1/images/burgernew.png
+    - assets/page-1/images/remotebites-2.png
+    - assets/page-1/images/small-bites-1.png
+    - assets/page-1/images/small-foods.png
+    - assets/page-1/images/mega-bites-1-Pfw.png
+    - assets/page-1/images/dominos-225.png
+    - assets/page-1/images/dominos-7JZ.png
+    - assets/page-1/images/mega-food.png
+    - assets/page-1/images/dominos-pTs.png
+    - assets/page-1/images/mask-group-yrZ.png
+    - assets/page-1/images/rectangle-5.png
+    - assets/page-1/images/mask-group-vWu.png
+    - assets/page-1/images/mega-bites-1-UoK.png
+    - assets/page-1/images/r1-2.png
+    - assets/page-1/images/mega-bites-1-psB.png
+    - assets/page-1/images/mega-bites-1-PQV.png
+    - assets/page-1/images/rb2-2-McD.png
+    - assets/page-1/images/dominos-vvD.png
+    - assets/page-1/images/mega-bites-1-6Ju.png
+    - assets/page-1/images/pizza-1.png
+    - assets/page-1/images/dominos-du3.png
+    - assets/page-1/images/toyfacestansparentbg49.png
+    - assets/page-1/images/rectangle-3.png
+    - assets/page-1/images/mask-group-qLV.png
+    - assets/page-1/images/dominos-XDK.png
+    - assets/page-1/images/teanew.png
+    - assets/page-1/images/food-1.png
+    - assets/page-1/images/grocery-1.png
+    - assets/page-1/images/toyfacestansparentbg29.png
+    - assets/page-1/images/mega-bites-1-bZb.png
+    - assets/page-1/images/momonew.png
+    - assets/page-1/images/dominos-uRj.png
+    - assets/page-1/images/mask-group-qKP.png
+    - assets/page-1/images/mask-group-SPB.png
+    - assets/page-1/images/dominos-wys.png
+    - assets/page-1/images/mega-bites-1-zEu.png
+    - assets/page-1/images/coffeenew.png
+    - assets/page-1/images/choconew.png
+    - assets/page-1/images/mega-bites-1-F13.png
+    - assets/page-1/images/mega-bites-1-1Tw.png
+    - assets/page-1/images/mega-bites-1-Uz5.png
+    - assets/page-1/images/samosanew.png
+    - assets/page-1/images/mega-bites-1-1r1.png
+    - assets/page-1/images/dosaidlynew.png
+    - assets/page-1/images/noodlenew.png
+    - assets/page-1/images/pizzanew.png
+    - assets/page-1/images/sandwichnew.png
+    - assets/page-1/images/cakenew.png
+    - assets/page-1/images/pastanew.png
+    - assets/page-1/images/orangenew.png
+    - assets/page-1/images/auto-group-yand.png
+    - assets/page-1/images/indian-snacks-1.png
+    - assets/page-1/images/auto-group-ssqh.png
+    - assets/page-1/images/auto-group-tf7f.png
+    - assets/page-1/images/auto-group-pjgh.png
+    - assets/page-1/images/mask-group-cau.png
+    - assets/page-1/images/rollsnew.png
+    - assets/page-1/images/manpizza-1.png
+    - assets/page-1/images/ricenew.png
+    - assets/page-1/images/search-icon-vdF.png
+    - assets/page-1/images/auto-group-hvnz.png
+    - assets/page-1/images/auto-group-pdlv.png
+    - assets/page-1/images/icon-arrow-back-outline.png
+    - assets/page-1/images/mask-group-sfX.png
+    - assets/page-1/images/icon-keyboard-arrow-down-5vH.png
+    - assets/page-1/images/auto-group-mdrb.png
+    - assets/page-1/images/dominos-pizza-logo-1Bw.png
+    - assets/page-1/images/mask-group-2LH.png
+    - assets/page-1/images/auto-group-xe8r.png
+    - assets/page-1/images/auto-group-hy5t.png
+    - assets/page-1/images/mask-group-Nrd.png
+    - assets/page-1/images/auto-group-cjuy.png
+    - assets/page-1/images/auto-group-pomk.png
+    - assets/page-1/images/mask-group-dAh.png
+    - assets/page-1/images/auto-group-flob.png
+    - assets/page-1/images/auto-group-fgty.png
+    - assets/page-1/images/icon-keyboard-arrow-down-Hcd.png
+    - assets/page-1/images/mask-group-ptR.png
+    - assets/page-1/images/mask-group-D93.png
+    - assets/page-1/images/auto-group-qtvy.png
+    - assets/page-1/images/mask-group-Vcm.png
+    - assets/page-1/images/mask-group-YQ1.png
+    - assets/page-1/images/mask-group-Xt5.png
+    - assets/page-1/images/mask-group-NAV.png
+    - assets/page-1/images/mask-group-Wch.png
+    - assets/page-1/images/mask-group-RmT.png
+    - assets/page-1/images/mask-group-miH.png
+    - assets/page-1/images/icon-microphone-n9X.png
+    - assets/page-1/images/mask-group-VsP.png
+    - assets/page-1/images/mask-group-obw.png
+    - assets/page-1/images/mask-group-Ufj.png
+    - assets/page-1/images/auto-group-1vry.png
+    - assets/page-1/images/filter-UYZ.png
+    - assets/page-1/images/mask-group-LtH.png
+    - assets/page-1/images/auto-group-7nnd.png
+    - assets/page-1/images/mask-group-nEV.png
+    - assets/page-1/images/icon-star-circle-fill-fx5.png
+    - assets/page-1/images/auto-group-dxeh.png
+    - assets/page-1/images/mask-group-A2d.png
+    - assets/page-1/images/auto-group-xmdj.png
+    - assets/page-1/images/mask-group-PiZ.png
+    - assets/page-1/images/mask-group-pQh.png
+    - assets/page-1/images/mask-group-6k1.png
+    - assets/page-1/images/mask-group-JiD.png
+    - assets/page-1/images/mask-group-cEV.png
+    - assets/page-1/images/dominos-pizza-logo-5oo.png
+    - assets/page-1/images/mask-group-T2y.png
+    - assets/page-1/images/auto-group-73zj.png
+    - assets/page-1/images/auto-group-cqt7.png
+    - assets/page-1/images/mask-group-Za1.png
+    - assets/page-1/images/auto-group-b43b.png
+    - assets/page-1/images/auto-group-gjft.png
+    - assets/page-1/images/mask-group-cPs.png
+    - assets/page-1/images/mask-group-bR3.png
+    - assets/page-1/images/auto-group-8tok.png
+    - assets/page-1/images/mask-group-3b7.png
+    - assets/page-1/images/mask-group-yMB.png
+    - assets/page-1/images/mask-group-Lqf.png
+    - assets/page-1/images/auto-group-2vwm.png
+    - assets/page-1/images/mask-group-cnD.png
+    - assets/page-1/images/mega-bites-2.png
+    - assets/page-1/images/rb2-3.png
+    - assets/page-1/images/auto-group-ayj1.png
+    - assets/page-1/images/manpizza-1-LB3.png
+    - assets/page-1/images/icon-keyboard-arrow-down-kSV.png
+    - assets/page-1/images/icon-microphone-Bcd.png
+    - assets/page-1/images/mask-group-KTw.png
+    - assets/page-1/images/mask-group-paD.png
+    - assets/page-1/images/auto-group-nggy.png
+    - assets/page-1/images/auto-group-usg9.png
+    - assets/page-1/images/mask-group-e2M.png
+    - assets/page-1/images/mask-group-yCm.png
+    - assets/page-1/images/mask-group-2C9.png
+    - assets/page-1/images/mask-group-gB3.png
+    - assets/page-1/images/auto-group-aoxv.png
+    - assets/page-1/images/auto-group-k8kb.png
+    - assets/page-1/images/mask-group-84R.png
+    - assets/page-1/images/mask-group-pF3.png
+    - assets/page-1/images/auto-group-6p3x.png
+    - assets/page-1/images/mask-group-AyP.png
+    - assets/page-1/images/mask-group-peV.png
+    - assets/page-1/images/mask-group-R8V.png
+    - assets/page-1/images/mask-group-rWV.png
+    - assets/page-1/images/auto-group-trtd.png
+    - assets/page-1/images/mask-group-8Ho.png
+    - assets/page-1/images/mask-group-HuK.png
+    - assets/page-1/images/mask-group-7ZK.png
+    - assets/page-1/images/auto-group-ejnq.png
+    - assets/page-1/images/mask-group-9Rj.png
+    - assets/page-1/images/mask-group-9XP.png
+    - assets/page-1/images/mask-group-Jp1.png
+    - assets/page-1/images/mask-group-3zy.png
+    - assets/page-1/images/mask-group-X7P.png
+    - assets/page-1/images/icon-arrow-back-outline-Tqj.png
+    - assets/page-1/images/filter-kgZ.png
+    - assets/page-1/images/mask-group-wJR.png
+    - assets/page-1/images/icon-keyboard-arrow-down-jus.png
+    - assets/page-1/images/auto-group-zevp.png
+    - assets/page-1/images/auto-group-pttp.png
+    - assets/page-1/images/mask-group-DZ3.png
+    - assets/page-1/images/auto-group-wnqw.png
+    - assets/page-1/images/auto-group-8kuu.png
+    - assets/page-1/images/search-icon-STs.png
+    - assets/page-1/images/icon-star-circle-fill-1SR.png
+    - assets/page-1/images/auto-group-1bsz.png
+    - assets/page-1/images/auto-group-bvup.png
+    - assets/page-1/images/auto-group-fpvx.png
+    - assets/page-1/images/auto-group-ngvv.png
+    - assets/page-1/images/mask-group-wAy.png
+    - assets/page-1/images/auto-group-vxu1.png
+    - assets/page-1/images/mask-group-dGm.png
+    - assets/page-1/images/auto-group-jts9.png
+    - assets/page-1/images/auto-group-dbvy.png
+    - assets/page-1/images/auto-group-qnft.png
+    - assets/page-1/images/mask-group-rVX.png
+    - assets/page-1/images/auto-group-t7bf.png
+    - assets/page-1/images/mask-group-nmw.png
+    - assets/page-1/images/mask-group-zD7.png
+    - assets/page-1/images/mask-group-vWM.png
+    - assets/page-1/images/auto-group-auah.png
+    - assets/page-1/images/mask-group-inV.png
+    - assets/page-1/images/auto-group-ezym.png
+    - assets/page-1/images/mask-group-LA5.png
+    - assets/page-1/images/mask-group-FRK.png
+    - assets/page-1/images/mask-group-egy.png
+    - assets/page-1/images/mask-group-bW1.png
+    - assets/page-1/images/auto-group-pqey.png
+    - assets/page-1/images/mask-group-dus.png
+    - assets/page-1/images/mask-group-dyT.png
+    - assets/page-1/images/chipsbhuj-new-2.png
+    - assets/page-1/images/chips-1.png
+    - assets/page-1/images/rb2-4.png
+    - assets/page-1/images/small-bites-2.png
+    - assets/page-1/images/mega-bites-1-yqb.png
+    - assets/page-1/images/small-bites-1-1ku.png
+    - assets/page-1/images/chipsbhuj-new-1.png
+    - assets/page-1/images/icon-food-SSm.png
+    - assets/page-1/images/small-foods-Gp9.png
+    - assets/page-1/images/mask-group-ktR.png
+    - assets/page-1/images/icon-printer-zHw.png
+    - assets/page-1/images/mega-food-BDj.png
+    - assets/page-1/images/icon-graduation-cap-HxM.png
+    - assets/page-1/images/profile-CY1.png
+    - assets/page-1/images/icon-shopping-bag-i5w.png
+    - assets/page-1/images/remotebites-2-Wiu.png
+    - assets/page-1/images/search-icon-jcD.png
+    - assets/page-1/images/rb2-2-2cq.png
+    - assets/page-1/images/icon-dineout-arD.png
+    - assets/page-1/images/offer.png
+    - assets/page-1/images/icon-arrow-circle-right.png
+    - assets/page-1/images/r1-2-qnh.png
+    - assets/page-1/images/offer-GHw.png
+    - assets/page-1/images/offer-mww.png
+    - assets/page-1/images/offer-tKB.png
+    - assets/page-1/images/icon-arrow-circle-right-22d.png
+    - assets/page-1/images/offer-NQh.png
+    - assets/page-1/images/icon-shopping-bag-woo.png
+    - assets/page-1/images/icon-microphone-uUV.png
+    - assets/page-1/images/mask-group-6Xs.png
+    - assets/page-1/images/offer-Ziq.png
+    - assets/page-1/images/icon-arrow-circle-right-X9B.png
+    - assets/page-1/images/icon-food-AKj.png
+    - assets/page-1/images/underconstruction-1.png
+    - assets/page-1/images/offer-NMw.png
+    - assets/page-1/images/icon-graduation-cap-uHT.png
+    - assets/page-1/images/offer-vhX.png
+    - assets/page-1/images/offer-EVX.png
+    - assets/page-1/images/offer-D3P.png
+    - assets/page-1/images/group-18216.png
+    - assets/page-1/images/offer-91j.png
+    - assets/page-1/images/offer-NRo.png
+    - assets/page-1/images/icon-flash-filled.png
+    - assets/page-1/images/offer-V9b.png
+    - assets/page-1/images/icon-dineout-1bf.png
+    - assets/page-1/images/icon-printer-Pu3.png
+    - assets/page-1/images/mask-group-R8d.png
+    - assets/page-1/images/offer-8i5.png
+    - assets/page-1/images/icon-arrow-circle-right-jtV.png
+    - assets/page-1/images/offer-wbX.png
+    - assets/page-1/images/search-icon-12R.png
+    - assets/page-1/images/offer-mA1.png
+    - assets/page-1/images/offer-YC9.png
+    - assets/page-1/images/icon-arrow-circle-right-UsT.png
+    - assets/page-1/images/offer-yds.png
+    - assets/page-1/images/icon-microphone-V37.png
+    - assets/page-1/images/cocacola-1.png
+    - assets/page-1/images/cocacola-1-RuB.png
+    - assets/page-1/images/cocacola-1-FD3.png
+    - assets/page-1/images/cocacola-1-1nh.png
+    - assets/page-1/images/rb2-2-7S9.png
+    - assets/page-1/images/profile-LWM.png
+    - assets/page-1/images/cocacola-1-AXB.png
+    - assets/page-1/images/cocacola-1-5yb.png
+    - assets/page-1/images/cocacola-1-Azu.png
+    - assets/page-1/images/cocacola-1-LWd.png
+    - assets/page-1/images/cocacola-1-XWh.png
+    - assets/page-1/images/insta-bites-1.png
+    - assets/page-1/images/dairy-milk-1.png
+    - assets/page-1/images/cocacola-1-gyf.png
+    - assets/page-1/images/cocacola-1-p5f.png
+    - assets/page-1/images/cocacola-1-8Xb.png
+    - assets/page-1/images/sta-new-1.png
+    - assets/page-1/images/cocacola-1-RLV.png
+    - assets/page-1/images/snack-zone-1.png
+    - assets/page-1/images/chipsbhuj-new-1-fCu.png
+    - assets/page-1/images/r1-2-Vt5.png
+    - assets/page-1/images/cocacola-1-GxH.png
+    - assets/page-1/images/cocacola-1-5T7.png
+    - assets/page-1/images/cocacola-1-9Xw.png
+    - assets/page-1/images/rinnew-1.png
+    - assets/page-1/images/soap-new-1.png
+    - assets/page-1/images/perfumenew-1.png
+    - assets/page-1/images/cocacola-1-vf3.png
+    - assets/page-1/images/choicenew-1.png
+    - assets/page-1/images/cocacola-1-sNy.png
+    - assets/page-1/images/sani-new-1.png
+    - assets/page-1/images/clip-path-group-VdB.png
+    - assets/page-1/images/choco-cone-1.png
+    - assets/page-1/images/choco-2.png
+    - assets/page-1/images/icon-chevron-right-arrow-Dcu.png
+    - assets/page-1/images/mask-group-1dB.png
+    - assets/page-1/images/juicedrinknew-1.png
+    - assets/page-1/images/vuesax-linear-add.png
+    - assets/page-1/images/vector-aoB.png
+    - assets/page-1/images/choco-cone-1-8wB.png
+    - assets/page-1/images/cakebisnew-1.png
+    - assets/page-1/images/icon-chevron-right-arrow-fPo.png
+    - assets/page-1/images/vector-bay.png
+    - assets/page-1/images/icon-chevron-right-arrow-Cb3.png
+    - assets/page-1/images/group-11.png
+    - assets/page-1/images/vuesax-linear-arrow-left.png
+    - assets/page-1/images/vector-c1f.png
+    - assets/page-1/images/clip-path-group-9d3.png
+    - assets/page-1/images/mask-group-nxZ.png
+    - assets/page-1/images/mask-group-5cD.png
+    - assets/page-1/images/icon-plus.png
+    - assets/page-1/images/search-icon-sER.png
+    - assets/page-1/images/profile-Pr9.png
+    - assets/page-1/images/icon-star-circle-fill-6vD.png
+    - assets/page-1/images/icon-dineout-ZJ9.png
+    - assets/page-1/images/icon-graduation-cap-FKP.png
+    - assets/page-1/images/icon-printer-LEM.png
+    - assets/page-1/images/icon-food-cLH.png
+    - assets/page-1/images/icon-star-circle-fill-VoP.png
+    - assets/page-1/images/icon-plus-CrD.png
+    - assets/page-1/images/icon-microphone-WVX.png
+    - assets/page-1/images/icon-star-circle-fill-C8H.png
+    - assets/page-1/images/icon-shopping-bag-pt9.png
+    - assets/page-1/images/hp.png
+    - assets/page-1/images/icon-keyboard-arrow-down-mAR.png
+    - assets/page-1/images/icon-star-circle-fill-tVw.png
+    - assets/page-1/images/icon-plus-i89.png
+    - assets/page-1/images/mask-group-9DT.png
+    - assets/page-1/images/calendar.png
+    - assets/page-1/images/form-background.png
+    - assets/page-1/images/icon-star-circle-fill-Skq.png
+    - assets/page-1/images/filter-nEd.png
+    - assets/page-1/images/icon-nav-arrow-right.png
+    - assets/page-1/images/dominos-AzM.png
+    - assets/page-1/images/line-69.png
+    - assets/page-1/images/r1-2-y1B.png
+    - assets/page-1/images/rb2-2-4nd.png
+    - assets/page-1/images/icon-checkmark-circle-2.png
+    - assets/page-1/images/line-72.png
+    - assets/page-1/images/remote-prints-1.png
+    - assets/page-1/images/dominos-K3F.png
+    - assets/page-1/images/remote-prints-1-M8D.png
+    - assets/page-1/images/icon-plus-circle.png
+    - assets/page-1/images/remote-prints-1-4HF.png
+    - assets/page-1/images/group-18169.png
+    - assets/page-1/images/mask-group-fpD.png
+    - assets/page-1/images/icon-nav-arrow-right-Y1P.png
+    - assets/page-1/images/dominos-jAy.png
+    - assets/page-1/images/icon-nav-arrow-right-aHP.png
+    - assets/page-1/images/icon-keyboard-arrow-down-jZ3.png
+    - assets/page-1/images/icon-nav-arrow-right-gYh.png
+    - assets/page-1/images/icon-checkmark-circle-2-QFb.png
+    - assets/page-1/images/icon-arrow-back-outline-ApR.png
+    - assets/page-1/images/icon-arrow-back-outline-yER.png
+    - assets/page-1/images/remote-prints-1-Mh3.png
+    - assets/page-1/images/dominos-sa9.png
+    - assets/page-1/images/remote-prints-1-yKo.png
+    - assets/page-1/images/icon-nav-arrow-right-LAM.png
+    - assets/page-1/images/remote-prints-1-d9s.png
+    - assets/page-1/images/auto-group-d34m.png
+    - assets/page-1/images/print-zone-1.png
+    - assets/page-1/images/dominos-K2R.png
+    - assets/page-1/images/icon-arrow-ios-forward.png
+    - assets/page-1/images/icon-nav-arrow-right-S4H.png
+    - assets/page-1/images/icon-checkmark-circle-2-j9j.png
+    - assets/page-1/images/line-70.png
+    - assets/page-1/images/icon-arrow-ios-forward-e57.png
+    - assets/page-1/images/icon-arrow-ios-forward-EQ9.png
+    - assets/page-1/images/line-71.png
+    - assets/page-1/images/icon-checkmark-circle-2-rZX.png
+    - assets/page-1/images/line-73.png
+    - assets/page-1/images/printer-1.png
+    - assets/page-1/images/icon-arrow-ios-forward-teM.png
+    - assets/page-1/images/line-74.png
+    - assets/page-1/images/bites-1.png
+    - assets/page-1/images/icon-shopping-bag-aCh.png
+    - assets/page-1/images/gift-box-1.png
+    - assets/page-1/images/icon-food-3vh.png
+    - assets/page-1/images/icon-printer-Vbf.png
+    - assets/page-1/images/r-1-GE5.png
+    - assets/page-1/images/icon-dineout-iim.png
+    - assets/page-1/images/mask-group-swo.png
+    - assets/page-1/images/vector-Pxu.png
+    - assets/page-1/images/container-Rtd.png
+    - assets/page-1/images/vector-WbT.png
+    - assets/page-1/images/clip-path-group-QBB.png
+    - assets/page-1/images/container-d6y.png
+    - assets/page-1/images/vector-fRT.png
+    - assets/page-1/images/vector-BEH.png
+    - assets/page-1/images/container-WgH.png
+    - assets/page-1/images/clip-path-group-iW5.png
+    - assets/page-1/images/clip-path-group-AL1.png
+    - assets/page-1/images/container-HG5.png
+    - assets/page-1/images/ellipse-9-Wg1.png
+    - assets/page-1/images/ellipse-10-x49.png
+    - assets/page-1/images/ellipse-11-Fzh.png
+    - assets/page-1/images/mask-group-SUZ.png
+    - assets/page-1/images/container-iBs.png
+    - assets/page-1/images/ellipse-12-Wc9.png
+    - assets/page-1/images/vector-fJq.png
+    - assets/page-1/images/ellipse-9-QHf.png
+    - assets/page-1/images/ellipse-10-7QD.png
+    - assets/page-1/images/container-8kR.png
+    - assets/page-1/images/container-3ZT.png
+    - assets/page-1/images/ellipse-12-xkZ.png
+    - assets/page-1/images/ellipse-12-MWR.png
+    - assets/page-1/images/vector-Qg1.png
+    - assets/page-1/images/ellipse-10-jqK.png
+    - assets/page-1/images/card.png
+    - assets/page-1/images/ellipse-9-xRP.png
+    - assets/page-1/images/ellipse-9-oiZ.png
+    - assets/page-1/images/google.png
+    - assets/page-1/images/ellipse-12-VuT.png
+    - assets/page-1/images/ellipse-12-6R7.png
+    - assets/page-1/images/rectangle-3-syb.png
+    - assets/page-1/images/ellipse-12-HR3.png
+    - assets/page-1/images/ellipse-9-qBf.png
+    - assets/page-1/images/vector-GrV.png
+    - assets/page-1/images/ellipse-10-Qxh.png
+    - assets/page-1/images/ellipse-12-8vu.png
+    - assets/page-1/images/card-Q8H.png
+    - assets/page-1/images/rectangle-4-L2u.png
+    - assets/page-1/images/card-XAR.png
+    - assets/page-1/images/ellipse-12-8fs.png
+    - assets/page-1/images/container-Ua5.png
+    - assets/page-1/images/ellipse-10-NLZ.png
+    - assets/page-1/images/vector-reV.png
+    - assets/page-1/images/container-gdf.png
+    - assets/page-1/images/ellipse-12-APb.png
+    - assets/page-1/images/vector-7LM.png
+    - assets/page-1/images/card-sP7.png
+    - assets/page-1/images/email.png
+    - assets/page-1/images/ellipse-14.png
+    - assets/page-1/images/mask-group-M6Z.png
+    - assets/page-1/images/card-YWM.png
+    - assets/page-1/images/mask-group-1zh.png
+    - assets/page-1/images/vit-1.png
+    - assets/page-1/images/card-6w3.png
+    - assets/page-1/images/mask-group-un9.png
+    - assets/page-1/images/google-vFK.png
+    - assets/page-1/images/vector-XK7.png
+    - assets/page-1/images/mask-group-23K.png
+    - assets/page-1/images/card-ntH.png
+    - assets/page-1/images/illustration.png
+    - assets/page-1/images/rectangle-3-EZP.png
+    - assets/page-1/images/card-baH.png
+    - assets/page-1/images/rectangle-4-Wjj.png
+    - assets/page-1/images/card-e8y.png
+    - assets/page-1/images/image-1.png
+    - assets/page-1/images/icon-shopping-bag-gob.png
+    - assets/page-1/images/background.png
+    - assets/page-1/images/vit-1-riM.png
+    - assets/page-1/images/icon-printer-RFP.png
+    - assets/page-1/images/icon-shopping-bag-gz5.png
+    - assets/page-1/images/icon-printer-z1P.png
+    - assets/page-1/images/r-1-qzh.png
+    - assets/page-1/images/card-om3.png
+    - assets/page-1/images/icon-food-YUh.png
+    - assets/page-1/images/icon-checkmark-circle-2-uof.png
+    - assets/page-1/images/icon-dineout-F3P.png
+    - assets/page-1/images/icon-dineout-sJq.png
+    - assets/page-1/images/icon-in-progress.png
+    - assets/page-1/images/icon-food-gXK.png
+    - assets/page-1/images/r1-1.png
+    - assets/page-1/images/manpizza-1-nth.png
+    - assets/page-1/images/mask-group-1YV.png
+    - assets/page-1/images/dominos-pizza-logo-nSm.png
+    - assets/page-1/images/icon-close-circle.png
+    - assets/page-1/images/icon-arrow-return.png
+    - assets/page-1/images/avatar-bg.png
+    - assets/page-1/images/background-V9B.png
+    - assets/page-1/images/soap-new-1-pGR.png
+    - assets/page-1/images/chipsbhuj-new-1-vQh.png
+    - assets/page-1/images/sani-new-1-Jzu.png
+    - assets/page-1/images/rinnew-1-cgq.png
+    - assets/page-1/images/choicenew-1-fyK.png
+    - assets/page-1/images/juicedrinknew-1-mRb.png
+    - assets/page-1/images/clip-path-group-5bo.png
+    - assets/page-1/images/mask-group-9vy.png
+    - assets/page-1/images/cakebisnew-1-rhF.png
+    - assets/page-1/images/sta-new-1-htM.png
+    - assets/page-1/images/perfumenew-1-ec9.png
+    - assets/page-1/images/emv-chip.png
+    - assets/page-1/images/payment-system-logo.png
+    - assets/page-1/images/card-slider.png
+    - assets/page-1/images/vector-Hg5.png
+    - assets/page-1/images/group-21.png
+    - assets/page-1/images/group-22.png
+    - assets/page-1/images/group-1qb.png
+    - assets/page-1/images/group-21-aqw.png
+    - assets/page-1/images/carbon-location-current.png
+    - assets/page-1/images/group-20.png
+    - assets/page-1/images/group-31.png
+    - assets/page-1/images/group-21-HER.png
+    - assets/page-1/images/eva-arrow-back-outline.png
+    - assets/page-1/images/group-21-nWV.png
+    - assets/page-1/images/x.png
+    - assets/page-1/images/akar-icons-more-vertical.png
+    - assets/page-1/images/image-12.png
+    - assets/page-1/images/image-6.png
+    - assets/page-1/images/image-4.png
+    - assets/page-1/images/image-7.png
+    - assets/page-1/images/image-8.png
+    - assets/page-1/images/image-9.png
+    - assets/page-1/images/image-11-bg.png
+    - assets/page-1/images/image-5.png
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
