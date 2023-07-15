@@ -1,0 +1,75 @@
+name: remote_bites
+description: A new Flutter project.
+version: 1.0.0+1
+environment: 
+  sdk: '>=2.12.0 <3.0.0'
+dependencies: 
+  flutter: 
+    sdk: flutter
+  get: ^4.6.5
+  connectivity_plus: ^2.3.6
+  shared_preferences: ^2.0.15
+  cached_network_image: ^3.2.1
+  flutter_svg: ^1.1.6
+  google_sign_in: ^5.0.7
+  flutter_svg_provider: ^1.0.3
+  dotted_border: 2.0.0+3
+  another_stepper: ^1.2.2
+  carousel_slider: ^4.0.0
+  smooth_page_indicator: ^1.0.0+2
+  intl: ^0.18.0
+dev_dependencies: 
+  flutter_test: 
+    sdk: flutter
+flutter: 
+  uses-material-design: true
+  assets: 
+    - assets/
+    - assets/images/
+  fonts: 
+    - family: Poppins
+      fonts: 
+        - asset: assets/fonts/PoppinsSemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/PoppinsRegular.ttf
+          weight: 400
+        - asset: assets/fonts/PoppinsBold.ttf
+          weight: 700
+        - asset: assets/fonts/PoppinsMedium.ttf
+          weight: 500
+        - asset: assets/fonts/PoppinsExtraBold.ttf
+          weight: 800
+    - family: Readex Pro
+      fonts: 
+        - asset: assets/fonts/ReadexProSemiBold.ttf
+          weight: 600
+    - family: PT Sans
+      fonts: 
+        - asset: assets/fonts/PTSansBold.ttf
+          weight: 700
+        - asset: assets/fonts/PTSansRegular.ttf
+          weight: 400
+    - family: Plus Jakarta Sans
+      fonts: 
+        - asset: assets/fonts/PlusJakartaSansRegular.ttf
+          weight: 400
+        - asset: assets/fonts/PlusJakartaSansRomanBold.ttf
+          weight: 700
+        - asset: assets/fonts/PlusJakartaSansMedium.ttf
+          weight: 500
+    - family: Montserrat
+      fonts: 
+        - asset: assets/fonts/MontserratRomanMedium.ttf
+          weight: 500
+        - asset: assets/fonts/MontserratRomanLight.ttf
+          weight: 300
+        - asset: assets/fonts/MontserratRomanRegular.ttf
+          weight: 400
+        - asset: assets/fonts/MontserratRomanSemiBold.ttf
+          weight: 600
+    - family: DM Sans
+      fonts: 
+        - asset: assets/fonts/DMSansBold.ttf
+          weight: 700
+        - asset: assets/fonts/DMSansRegular.ttf
+          weight: 400
