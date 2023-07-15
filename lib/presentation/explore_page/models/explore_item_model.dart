@@ -1,0 +1,8 @@
+import 'package:get/get.dart';
+
+/// This class is used in the [explore_item_widget] screen.
+class ExploreItemModel {
+  Rx<String> typeTxt = Rx("Man Shirt");
+
+  Rx<String>? id = Rx("");
+}
