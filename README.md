@@ -1,6 +1,6 @@
 ## remote_bites\_\_\_admin_database
 
-Generated with ❤️ from [DhiWise](https://www.dhiwise.com)
+Generated with ❤️ from Remote-Bites
 
 ## Description
 
