@@ -11,3 +11,4 @@ class AppNavigationBinding extends Bindings {
     Get.lazyPut(() => AppNavigationController());
   }
 }
+
